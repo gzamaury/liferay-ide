@@ -43,7 +43,7 @@
 						<fileset>
 							<directory>lib</directory>
 							<includes>
-								<include>blade-latest.jar</include>
+								<!-- <include>blade-latest.jar</include> -->
 								<include>blade-3.9.2.jar</include>
 							</includes>
 						</fileset>
@@ -55,7 +55,7 @@
 				<artifactId>download-maven-plugin</artifactId>
 				<version>1.3.0</version>
 				<executions>
-					<execution>
+					<!-- <execution>
 						<id>download-latest-blade</id>
 						<phase>generate-resources</phase>
 						<goals>
@@ -67,7 +67,7 @@
 							<outputFileName>blade-latest.jar</outputFileName>
 							<md5>${blade-latest-md5}</md5>
 						</configuration>
-					</execution>
+					</execution> -->
 					<execution>
 						<id>download-392-blade</id>
 						<phase>generate-resources</phase>
